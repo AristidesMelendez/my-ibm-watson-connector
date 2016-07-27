@@ -11,7 +11,7 @@ import org.mule.modules.myibmwatson.model.TextAnalyzed;
 public class MyIBMWatsonConnector {
 
 	@Config
-	ConnectorConfig config;
+	private ConnectorConfig config;
 
 	private TextProcessor textProcessor;
 	
